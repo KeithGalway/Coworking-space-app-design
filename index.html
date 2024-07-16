@@ -10,55 +10,77 @@
     </head>
     <body>
         <!-- Header -->
-        <header>
-            <nav>
-                <ul>
-                    <li class="logo">WeBarelyWork</li>
-                    <li><img src="assets/pin.png" class="icon" alt="location"></li>
-                    <li class="align-right"><img src="assets/burger.png" class="icon"></li>
-                </ul>
+        <header class="header">
+            <nav class="header__nav">
+                <p class="header__logo">WeBarelyWork</p>
+                <img
+                    src="assets/pin.png"
+                    alt="location"
+                    class="header__icon"
+                />
+                <img 
+                    src="assets/burger.png"
+                    alt="burger-icon"
+                    class="header__icon align-right"
+                />
             </nav>
         </header>
 
         <!-- Main -->
-        <main>
+        <main class="main">
             <!-- Hero Section -->
-            <section>
-                <h1>The best coworking spaces for lazy devs.</h1>
+            <section class="main__class">
+                <h1 class="hero__heading">The best coworking spaces for lazy devs.</h1>
             </section>
 
             <!-- Section 1 -->
-            <section class="item">
-                <img src="assets/hygge.jpg" class="item-img" alt="A smart coworking space">
-                <div class="img-banner">Exclusive</div> 
-                <div class="caption">
-                    <p>Skiving in Scandinavia? Relax with a latte at Hygge Lounge.</p>
-                    <button>Book</button>
+            <section class="main__item">
+                <img 
+                    src="assets/hygge.jpg"
+                    alt="A smart coworking space"
+                    class="item__image"
+                />
+                <div class="exclusive__tag">Exclusive</div> 
+                <div class="item__description">
+                    <p class="item__text">Skiving in Scandinavia? Relax with a latte at Hygge Lounge.</p>
+                    <button class="item__button">Book</button>
                 </div>
             </section>
 
             <!-- Section 2 -->
-            <section class="item">
-                <img src="assets/sky-garden.jpg" class="item-img" alt="A coworking space with plants">
-                <div class="caption">
-                    <p>Bored in Barcelona? Take a siesta at the Sky Garden.</p>
-                    <button>Book</button>
+            <section class="main__item">
+                <img 
+                    src="assets/sky-garden.jpg"
+                    alt="A coworking space with plants"
+                    class="item__image"
+                />
+                <div class="item__description">
+                    <p class="item__text">Bored in Barcelona? Take a siesta at the Sky Garden.</p>
+                    <button class="item__button">Book</button>
                 </div>
             </section>
 
             <!-- Section 3 -->
-            <section class="item">
-                <img src="assets/generator.jpg" class="item-img" alt="A comfortable coworking space">
-                <div class="caption">
-                    <p>Relaxing in Rio? Take some downtime at the Generator Hub.</p>
-                    <button>Book</button>
+            <section class="main__item">
+                <img 
+                    src="assets/generator.jpg"
+                    alt="A comfortable coworking space"
+                    class="item__image"
+                />
+                <div class="item__description">
+                    <p class="item__text">Relaxing in Rio? Take some downtime at the Generator Hub.</p>
+                    <button class="item__button">Book</button>
                 </div>
             </section>
         </main>
 
         <!-- Chatbox -->
-        <div class="chatbox-bg">
-            <img src="assets/message.png" class="chatbox-img" alt="chatbox">
+        <div class="chatbox">
+            <img
+                src="assets/message.png"
+                alt="chatbox"
+                class="chatbox-img"
+            >
         </div>
     </body>
 </html>
